@@ -1,32 +1,37 @@
-# Secure Password Generator 🔐
+# Secure Password Generator
 
-A lightweight, easy-to-use Python Command Line Interface (CLI) tool to generate cryptographically secure passwords.
+A simple Python application that generates random and secure passwords to help protect your online accounts.
 
 ## Features
-- Uses Python's `secrets` module for maximum security (unlike the standard `random` module).
-- Customizable password length.
-- Option to include or exclude special symbols.
-- Zero dependencies (runs purely on standard Python).
+
+- Generates random passwords.
+- Combines uppercase and lowercase letters.
+- Includes numbers and special characters.
+- Creates strong passwords that are difficult to guess.
+- Runs directly from the terminal.
 
 ## How to use
 
-1. Make sure you have Python installed on your system.
-2. Clone the repository or download the `main.py` file.
-3. Run the script in your terminal:
+1. Make sure Python 3 is installed on your computer.
+2. Open a terminal in the project directory.
+3. Run the following command:
 
 ```bash
 python main.py
+```
 
---- Secure Password Generator ---
-Enter password length (default is 12): 16
-Include special symbols? (y/n, default is y): y
+4. Follow the instructions displayed in the terminal.
 
-Generating...
-Your new secure password is: 7#kL9!mQp2$xR4vB
+## Example Output
 
---- Secure Password Generator ---
-Enter password length (default is 12): 16
-Include special symbols? (y/n, default is y): y
+```text 
+================================
+     SECURE PASSWORD GENERATOR
+================================
 
-Generating...
-Your new secure password is: 7#kL9!mQp2$xR4vB
+Your generated password:
+
+Q7#mP2!vL9@x
+
+Password generated successfully!
+```
