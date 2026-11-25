@@ -23,3 +23,10 @@ Include special symbols? (y/n, default is y): y
 
 Generating...
 Your new secure password is: 7#kL9!mQp2$xR4vB
+
+--- Secure Password Generator ---
+Enter password length (default is 12): 16
+Include special symbols? (y/n, default is y): y
+
+Generating...
+Your new secure password is: 7#kL9!mQp2$xR4vB
